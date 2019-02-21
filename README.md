@@ -27,7 +27,7 @@ Using the same project/app from Exercise 2, create a django template for the rou
 ### Exercise 2
 Using the Phone model/schema create 3 entries using 3 different methods (admin site, create method using an endpoint, and class construtor using an endpoint).
 
-Create an 'all/' endpoint that prints out all phone name entries and create another new endpoint to change the hours of batter life of all phones with a version higher than 5 to be "247".
+Create an 'all/' endpoint that prints out all phone name entries and create another new endpoint to change the hours of battery life of all phones with a version higher than 5 to be "247".
 
 ### Exercise 3
 Using the same project/app from Exercise 2, create a django template for the route URL. Do the following in the template:
