@@ -1,10 +1,18 @@
 # django-moreViews-ic
 
 ### Exercise 1
-Create three new routes: hello_name, times2, and sum.
-
-hello_name should take an argument and return "Hello [ARGUMENT]"
-times2 should take an argument and return "The product times 2 is : [2* number]"
-sum should take an argument and print in the server terminal from zero to the number and return "Sum is: [SUM]"
+- Create a "hello" route that takes a name in the URL and returns a response with "hello [NAME]".
+- Create a "times2" route that takes an argument in the URL and returns a response with "The product times 2 is: [ANSWER]"
+- Create a "total" route that takes an integer in the URL and returns a response with "The sum of all numbers from 0 to the integer is: [SUM]"
 
 ### Exercise 2
+Create a Cup model/schema with name, material, and manufacturerDate attributes. Create 3 entries using 3 different methods (admin site, create method using an endpoint, and class construtor using an endpoint).
+
+Create an 'all/' endpoint that prints out all entry purchaseTimes and create another new endpoint to change the material text of cups manufactured after 2012 to be "Slightly New".
+
+### Exercise 3
+Using the same project/app from Exercise 2, create a django template for the route URL. Do the following in the template:
+- Display your name in large letters at the top
+- Display all entries in the database as an HTML list
+- Display "Here are all of the cups manufactured after 2012"
+- Display all cups manufacturered after 2012
